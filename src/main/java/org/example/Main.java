@@ -20,5 +20,8 @@ public class Main {
         int a = 12345;
         int digitSumResult = DigitSumCalculator.execute(a);
         System.out.println("сума цифр числа '" + a + "': " + digitSumResult);
+
+        int sumResult = SumWithoutPlus.execute(5, 7);
+        System.out.println("Сума: " + sumResult);
     }
 }
