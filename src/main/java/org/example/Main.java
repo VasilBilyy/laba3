@@ -16,5 +16,9 @@ public class Main {
         long fibonaciCycleResult = FibonaciSolver.cycleExecute(N);
         assert fibonaciRecursionResult == fibonaciCycleResult : "Different values";
         System.out.println("Результат підрахунку числа Фінобачі: " + fibonaciRecursionResult);
+
+        int a = 12345;
+        int digitSumResult = DigitSumCalculator.execute(a);
+        System.out.println("сума цифр числа '" + a + "': " + digitSumResult);
     }
 }
